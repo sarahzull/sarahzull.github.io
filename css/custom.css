@@ -1,0 +1,40 @@
+@font-face { font-family: Apercu; src: url('apercu/Apercu\ Pro\ Regular.otf'); } 
+@font-face { font-family: Apercu; src: url('apercu/Apercu\ Pro\ Bold.otf'); font-weight: bold; }
+
+body {
+  background-color: #E6DDDE;
+  font-family: Apercu;
+}
+
+h1 {
+  color: #654A4E;
+  font-weight: bold;
+}
+
+.line {
+  border-top: 1px solid #916a70;
+}
+
+nav-link, a {
+  color: #654a4e !important;
+  border-bottom: 2px solid transparent !important;
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #654a4e;
+}
+
+nav ul li a {
+  color: #654a4e;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* .navbar {
+  background-color: #E6DDDE;
+} */
